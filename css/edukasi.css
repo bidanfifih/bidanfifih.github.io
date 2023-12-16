@@ -1,0 +1,104 @@
+*{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+}
+.Home {
+  color: white;
+    font-size: 15px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+nav{
+  /* overflow: hidden;
+ /* position:fixed; */
+ left: 0;
+ top: 0;
+ width: auto;
+ height: auto; 
+ background: #ffff;
+ /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); */
+ border-bottom: 1px solid #000;
+}
+nav .navbar{
+ display: flex;
+ align-items: center;
+ justify-content: space-between ;
+ height: 70px;
+ max-width: auto;
+ background: #fff;
+ margin: auto;
+ 
+}
+ .navbar .logo img{
+  position: absolute;
+  margin-top: -15px;
+  /* margin-right: 10%; */ 
+  height: 65px;
+    width: 65px;
+}
+  nav .navbar .menu{
+    display: flex;
+    letter-spacing: 2px;
+  }
+  .navbar .menu li{
+    list-style: none;
+    margin: 0 15px;
+    margin-right: 55px;
+    margin-top: 21px;
+    
+  }
+  .navbar .menu li a{
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    /* text-decoration: none; */
+    cursor: pointer;
+    
+  }
+  .navbar .menu li a:hover {
+      color: #F0DBAF;
+      transition: 0.5s;
+  }
+  .Home {
+    color: black;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-left: 100px;
+    margin-right: 2px; 
+    text-align: left;
+    /* margin-bottom: 4px; */
+    
+}
+.button1 {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 800px;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #FFFB73;
+    font-weight: bold 10px;
+  }
+  
+  .button1:hover {
+    background-color: #FFFB73;
+    /* color: white; */
+  }
